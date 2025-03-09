@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mira arts</title>
+
+    <!--  bootstrap link css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--  bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xl">
+            <a href="#intro" class="navbar-brand">
+                <span fw-bold text-secondary>
+                    <i class="bi bi-palette-fill"></i>
+                    Mira Arts - Real Art</span>
+            </a>
+            <!--Toggle button f0r mobile nav-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links -->
+
+            <div class="collapse navbar-collapse justify-content-end  align-center " id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topics">About The Art</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Get in touch</a>
+                    </li>
+
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link" href="#pricing">pricing</a>
+                    </li>
+
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a class="btn btn-secondary" href="#pricing">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!--Main image & intro text-->
+    <section id="intro">
+        <!--we are using the grid set up to display the text and the image and small screen the imge is removed and retures at midpoints-->
+        <!--align item was used to propaly align the text -->
+
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Mira Arts</div>
+                        <div class="display-5" text-muted>Your coding skills</div>
+                    </h1>
+
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-large">Buy Now</a>
+                </div>
+
+
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="image-fluid" src="image/hero.png" alt="painter">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--pricing Plans-->
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted">Choose a Pricing plan to suit you.</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-2">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="Card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">Basics Arts Only</p>
+                            <p class="display-6 my-4 text-primary fw-bold">$14.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="Card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">Excusive sales & Vip ticket</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$44.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="Card-title">Premuim Edition</h4>
+                            <p class="lead card-subtitle">premium art collection</p>
+                            <p class="display-6 my-4 text-primary fw-bold">$34.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--topics at a glance-->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Stories Behind our Arts...</h2>
+                <p class="lead text-muted">A quick glance at the topic you'll learn off</p>
+            </div>
+
+            <div class="row my-4 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img class="image-fluid" src="image/paint.png" alt="A painter">
+                </div>
+
+                <div class="col-lg-6">
+
+
+                    <!--the accordion-->
+                    <div class="accordion" id="chapters">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">Chapter-1 The Cublism</button>
+
+                            </h2>
+
+                            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapter-1 ">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus adipisci culpa unde dolor asperiores nam a exercitationem natus sit fuga, quisquam voluptatibus quis sequi recusandae consectetur tempore
+                                        error aspernatur?
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quae nostrum blanditiis deserunt vitae corrupti dolore neque fugiat omnis sapiente soluta ducimus corporis natus deleniti libero animi, voluptate
+                                        quod.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">Chapter-2 The Girl with Pearl Earring</button>
+
+                            </h2>
+
+                            <div id="chapter-2" class="accordion-collapse collapse " aria-labelledby="heading-2" data-bs-parent="#chapter-2 ">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus adipisci culpa unde dolor asperiores nam a exercitationem natus sit fuga, quisquam voluptatibus quis sequi recusandae consectetur tempore
+                                        error aspernatur?
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quae nostrum blanditiis deserunt vitae corrupti dolore neque fugiat omnis sapiente soluta ducimus corporis natus deleniti libero animi, voluptate
+                                        quod.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">Chapter-3 The Mona Lisa</button>
+
+                            </h2>
+
+                            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapter-3 ">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus adipisci culpa unde dolor asperiores nam a exercitationem natus sit fuga, quisquam voluptatibus quis sequi recusandae consectetur tempore
+                                        error aspernatur?
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quae nostrum blanditiis deserunt vitae corrupti dolore neque fugiat omnis sapiente soluta ducimus corporis natus deleniti libero animi, voluptate
+                                        quod.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">Chapter-4 Diago velazguez's "las meninas" </button>
+
+                            </h2>
+
+                            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapter-4 ">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus adipisci culpa unde dolor asperiores nam a exercitationem natus sit fuga, quisquam voluptatibus quis sequi recusandae consectetur tempore
+                                        error aspernatur?
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quae nostrum blanditiis deserunt vitae corrupti dolore neque fugiat omnis sapiente soluta ducimus corporis natus deleniti libero animi, voluptate
+                                        quod.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-5">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="true" aria-controls="chapter-5">Chapter-5 The Impressionism</button>
+
+                            </h2>
+
+                            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapter-5 ">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis ducimus adipisci culpa unde dolor asperiores nam a exercitationem natus sit fuga, quisquam voluptatibus quis sequi recusandae consectetur tempore
+                                        error aspernatur?
+                                    </p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quae nostrum blanditiis deserunt vitae corrupti dolore neque fugiat omnis sapiente soluta ducimus corporis natus deleniti libero animi, voluptate
+                                        quod.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!--review list-->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars"></i>Arts Reviews</h2>
+                <p class="lead">What Customers have Said About Mira Arts.....</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">The Mona lisa</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis totam quam laboriosam, delectus expedita? Cupiditate quas amet, exercitationem inventore atque deserunt optio iure. Quidem accusamus et quod officia nulla.</p>
+                            <small>Review by Elsa</small>
+
+                        </div>
+
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">The Impressionism</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis totam quam laboriosam, delectus expedita? Cupiditate quas amet, exercitationem inventore atque deserunt optio iure. Quidem accusamus et quod officia nulla.</p>
+                            <small>Review by wisdom</small>
+
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">The Cublism</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis totam quam laboriosam, delectus expedita? Cupiditate quas amet, exercitationem inventore atque deserunt optio iure. Quidem accusamus et quod officia nulla.</p>
+                            <small>Review by emma</small>
+
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Diago velazguez's "las meninas"</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis totam quam laboriosam, delectus expedita? Cupiditate quas amet, exercitationem inventore atque deserunt optio iure. Quidem accusamus et quod officia nulla.</p>
+                            <small>Review by Glorianna</small>
+
+                        </div>
+
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">The Girl with Pearl Earring</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis totam quam laboriosam, delectus expedita? Cupiditate quas amet, exercitationem inventore atque deserunt optio iure. Quidem accusamus et quod officia nulla.</p>
+                            <small>Review by Glory</small>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact form-->
+
+    <!--get updates / model trigger-->
+
+
+
+
+
+    <!--  bootstrap script js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script>
+</body>
+
+
+</html>
+
+</html>
